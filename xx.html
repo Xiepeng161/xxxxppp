@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="index.html" method="get">
+			<input type="text" name="username" placeholder="请输入用户名！" maxlength="5"
+			pattern="^[a-z]+$"/><br><br>
+			<input type="password" name="password" placeholder="请输入密码!"/><br><br>
+			<label for="m">男</label><input type="radio" value="1" name="gender" id="m" />
+			<label for="w">女</label><input type="radio" value="0" name="gender" checked="checked" id="w" />
+			打篮球<input type="checkbox" name="interest" value="a" />
+			踢足球<input type="checkbox" name="interest" value="b" />
+			乒乓球<input type="checkbox" name="interest" value="c" />
+			羽毛球<input type="checkbox" name="interest" value="d" checked />
+			谢鹏<input type="checkbox" name="interest" value="e" /><br><br>
+			地区
+			<select name="area">
+				<option>北京</option>
+				<option>上海</option>
+				<option>天津</option>
+			</select><br><br>
+			<input type="number" name="salary" min="5" max="15" step="2" /><br><br>
+			<input type="color" name="color" /><br><br>
+			<input type="datetime-local" /><br><br>
+			<input type="email" />
+			<input type="url" />
+			<input type="tel" />
+			<input type="file" multiple="multiple" />
+			<input type="hidden" name="id" vale="1" />
+			<input type="image" src="./js/img/11.jpg" />
+			<input type="button" value="来打我啊" />
+			<input type="reset" value="重置" />
+			<br><br><input type="submit" value="提交">
+
+		</form>
+</body>
+</html>
